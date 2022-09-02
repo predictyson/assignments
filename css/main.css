@@ -1,0 +1,206 @@
+header{
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  box-shadow:0px 10px 10px -10px grey;
+}
+nav {
+  display: flex;
+  width: 60%;
+  margin: auto auto;
+  color: darkslategray;
+}
+.header_nav_home{
+  font-size: 50px;
+  color: gray;
+  cursor: pointer;
+}
+.header_nav_notify{
+  margin: auto 20px;
+
+  color: gray;
+  cursor: pointer;
+}
+.header_nav_menu{
+  display: flex;
+  cursor: pointer;
+  margin-left: auto;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.header_nav_menuitem{
+  color: gray;
+  margin-left: 20px;
+}
+
+/* header end  */
+.content{
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+}
+/** content left start */
+.content_left{
+  width: 20%;
+}
+.content_body{
+  padding-left: 20px;
+  width: 80%;
+  float: right;
+}
+.profile{
+  width: 60%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.profile_img post-login{
+  width: 60%;
+  margin: 0 auto;
+}
+.store_display{
+  margin-top: 30px;
+border-radius: 5px;
+width: 100%;
+background-color: lightgray;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 20px;
+}
+li{
+  list-style: none;
+}
+
+
+/* 전국 매장 펼치기 */
+.store_item{
+  border-radius: 5px;
+  background-color: lightgray;
+  margin-top: 10px;
+  padding: 10px;
+}
+.store_area{
+  font-weight: 600;
+  margin-left: 10px;
+}
+.store_item_sub li {
+  margin: 20px 0 ;
+}
+/* 당신의 선택 */
+.vote{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: solid 3px lightgray;
+  border-radius: 3px;
+}
+.vote_title{
+  color: grey;
+  font-weight: 700; 
+  text-align: center;
+}
+.vote_question{
+  margin-top: 15px;
+  font-weight: bolder;
+  align-items: center;
+  justify-content: center;
+}
+.vote_answer{
+  float: left;
+}
+.vote_button{
+
+  display: flex;
+  justify-content: flex-end;
+}
+button{
+  margin-left: 5px;
+}
+.button_primary{
+  background-color: purple;
+  border: none;
+  color: white;
+}
+.button{
+  background-color: white;
+  border: solid 3px lightgray;
+}
+.vote_date{
+  margin-top: 25px;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+/* 프로그래밍 언어 */
+.menu{
+  margin-left: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu_item{
+  text-align: center;
+  border: solid 2px lightgrey
+}
+.menu_item_info{
+  margin-top: 20px;
+}
+/* 인기글 */
+h3{
+  font-weight: bolder;
+}
+.article{
+  display: flex;
+}
+.article_popular{
+  width: 50%;
+}
+table{
+  width: 100%;
+  
+}
+td{
+padding: 5px;
+}
+.article_new{
+  margin-left: 30px;
+  width: 50%;
+}
+
+#popular tr:nth-child(odd){
+  background-color: #f2f2f2;
+}
+#popular th{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+}
+#new th{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#new{
+  border: solid 1px lightgrey;
+  border-collapse: collapse;
+}
+#new th, td{
+  border: solid 1px lightgrey;
+}
+
+/* footer */
+footer{
+  width: 60%;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: row;
+}
+.footer-item{
+  margin-right: 10px;
+  color: gray;
+}
